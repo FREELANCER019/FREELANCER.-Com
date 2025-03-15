@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FREELANCER</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+        h1 {
+            color: #ff4444;
+        }
+        p {
+            color: #bbbbbb;
+        }
+        a {
+            color: #ff4444;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .button {
+            display: inline-block;
+            background-color: #ff4444;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #cc0000;
+        }
+        .payment-form {
+            margin-top: 20px;
+        }
+        input, button {
+            margin: 5px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+        button {
+            background-color: #ff4444;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>FREELANCER</h1>
+        <p>Discover how to make money online with our exclusive strategies.</p>
+        <p><a href="#" class="button">Start Earning Now</a></p>
+        <h2>Our Money-Making Plan:</h2>
+        <ul>
+            <li>Create and sell digital products (eBooks, courses, templates).</li>
+            <li>Affiliate marketing – earn commissions by promoting products.</li>
+            <li>Drop servicing – outsource services and sell at a profit.</li>
+            <li>Subscription-based content or exclusive membership access.</li>
+            <li>Advertising revenue through blogs, videos, or social media.</li>
+        </ul>
+        <h2>Make a Payment</h2>
+        <form class="payment-form" action="https://www.paypal.com/paypalme/YOURPAYPALUSERNAME" method="post" target="_blank">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="number" name="amount" placeholder="Amount ($)" required>
+            <button type="submit">Pay Now</button>
+        </form>
+    </div>
+</body>
+</html>
